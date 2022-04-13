@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<h3>Your Information</h3>
+	<form action="/lab02/showInput.php" method="POST">
+		Your Name:<br>
+		<input type="text" name="name" value="">
+		<br><br>
+		Your University:<br>
+		<input type="text" name="uni" value="">
+		<br><br>
+		Your Class:<br>
+		<input type="text" name="class" value="">
+		<br><br>
+		Hobby:<br>
+		<input type="checkbox" name="hobby[]" value="Reading Book">Reading Book
+		<br>
+		<input type="checkbox" name="hobby[]" value="Listening Music">Listening Music
+		<br>
+		<input type="checkbox" name="hobby[]" value="Sport">Sport
+		<br>
+		<!-- 	<input type="checkbox" name="hobby[]" value="other">Other
+	<br> -->
+		Other: <br>
+		<textarea name="hobby[]" rows="5" cols="40"></textarea>
+		<br><br>
+		<input type="reset">
+		<input type="submit" name="formInput">
+	</form>
+
+</body>
+
+</html>
