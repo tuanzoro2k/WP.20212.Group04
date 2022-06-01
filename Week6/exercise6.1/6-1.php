@@ -2,9 +2,9 @@
 <html>
 
 <head>
-    <title>8-1</title>
+    <title>Exercise 6-1</title>
     <div id="header"><title>My first styled page</title></div>
-    <link rel="stylesheet" href="8-1.css">
+    <link rel="stylesheet" href="6-1.css">
 </head>
 
 <body>
