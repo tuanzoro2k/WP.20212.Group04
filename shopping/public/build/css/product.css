@@ -1,0 +1,60 @@
+.view-first:hover .mask {
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.image_box .image{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border:3px solid #ff0000;
+
+}
+.image_box .image img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+}
+.image_box .btn_choose label{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    color: #fff;
+    background: #ff0000;
+    text-align: center;
+}
+.image_box .btn_choose input[type="file"]{
+    display: none;
+}
+.image.view.view-first img{
+    height: 200px !important;
+    object-fit: contain;
+}
+ul.pagination li a.disabled{
+    pointer-events: none;
+}
+ul.pagination li a.active{
+    background-color: #0011ff;
+    color: #fff;
+}
+/* image detail */
+#mydropzone .images_box {
+    width: 200;
+    height: 150px;
+    position: relative;
+}
+#mydropzone .images_box img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
