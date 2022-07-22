@@ -1,3 +1,4 @@
+
 <?php 
 require_once "./mvc/core/redirect.php";
 require_once "./mvc/controllers/MyController.php";
