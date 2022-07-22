@@ -2,7 +2,7 @@
 
 ## Install
 
-- **Step1**: Go to `public/shopping.sql` and execute it.
+- **Step1**: Go to `shopping.sql` and execute it.
 - **Step2**: If you need to change the database credentials for the app:
   - Go to `mvc/core/db.php`
 - **Step3**:
