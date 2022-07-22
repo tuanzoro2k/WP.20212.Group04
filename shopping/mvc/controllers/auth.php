@@ -1,3 +1,4 @@
+
 <?php
 require_once "./mvc/core/redirect.php";
 class auth extends controller
